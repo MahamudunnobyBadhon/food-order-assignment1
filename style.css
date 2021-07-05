@@ -1,0 +1,102 @@
+body{
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+    font-family: 'Uchen', serif;
+}
+#header{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    text-align: center;
+    font-size: 30px;
+    background-image: linear-gradient(rgb(184, 136, 81), rgb(219, 219, 119));
+}
+.topnav {
+    margin-top: 0%;
+    overflow: hidden;
+    background-color: black;
+}
+.topnav a {
+    float: left;
+    text-decoration: lawngreen;
+    font-size: 20px;
+    color: blanchedalmond;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: black;
+    color: white;
+}
+#sec-healthy-food{
+    display: flex;
+    height: 500px;
+    width: 100%;
+    margin-top: 20px;
+    background-image: url(images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.half-width{
+
+    width: 50%;
+    padding: 40px 60px;
+}
+h1{
+    font-size: 40px;
+}
+.orangecolor{
+    color: orange;
+}
+p{
+    font-size: 20px;
+}
+.link-btn{
+    text-decoration: none;
+    size: 1000px;
+    padding: 10px 50px;
+    font-weight: 800;
+    color: white;
+    border-radius: 10px;
+    background-image: linear-gradient(rgb(216, 146, 16), rgb(10, 145, 10));
+}
+#sec-about-me{
+    display: flex;
+    margin-top: 20px;
+    height: 500px;
+    width: 100%;
+    background-image: url(images/shapes/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+}
+.about-me{
+    padding-top: 70px ;
+}
+.recipe-description{
+    display: block;
+    text-align: center;
+    height: 30%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.parent-div-recipe{
+    display: flex;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+.recipe{
+    display: block;
+    width: 30%;
+    height: 40%;
+}
+
