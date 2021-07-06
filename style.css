@@ -1,5 +1,5 @@
 body{
-    margin-top: 0%;
+    margin-top: 0;
     margin-left: 0%;
     margin-right: 0%;
     margin-bottom: 0%;
@@ -80,6 +80,10 @@ p{
 .about-me{
     padding-top: 70px ;
 }
+#sec-my-recipes{
+    margin-left: 50px;
+    margin-right: 50px;
+}
 .recipe-description{
     display: block;
     text-align: center;
@@ -91,12 +95,24 @@ p{
 }
 .parent-div-recipe{
     display: flex;
-    margin-left: 6%;
-    margin-right: 6%;
 }
 .recipe{
     display: block;
-    width: 30%;
-    height: 40%;
+    width: 25%;
+    height: 100%;
+    margin: 4%;
+    border: 3px solid;
+    border-radius: 15px;
+    border-color: burlywood;
+    box-shadow: 10px 10px 5px rgb(226, 126, 173);
 }
-
+.img-recipe{
+    width: 320px;
+    height: 200px;
+    padding: 15px;
+}
+.recipe-text{
+    width: 320px;
+    height: 200px;
+    padding: 15px;
+}
