@@ -10,7 +10,7 @@ body{
     margin-bottom: 0%;
     text-align: center;
     font-size: 30px;
-    background-image: linear-gradient(rgb(184, 136, 81), rgb(219, 219, 119));
+    background-image: linear-gradient(rgb(228, 216, 203), rgb(231, 231, 206));
 }
 .topnav {
     margin-top: 0%;
@@ -103,17 +103,7 @@ p{
 .parent-div-service{
     display: flex;
 }
-.recipe{
-    display: block;
-    width: 25%;
-    height: 100%;
-    margin: 4%;
-    border: 3px solid;
-    border-radius: 15px;
-    border-color: burlywood;
-    box-shadow: 10px 10px 5px rgb(226, 126, 173);
-}
-.services{
+.box{
     display: block;
     width: 25%;
     height: 100%;
@@ -137,4 +127,39 @@ p{
     width: 320px;
     height: 200px;
     padding: 15px;
+}
+#contact-us{
+    display: flex;
+    margin: 5%;
+    background-image: linear-gradient(rgba(204, 121, 121, 0.507), cyan);
+}
+.half-width
+{
+    width: 40%;
+}
+
+.parent-follower{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 2px solid;
+    border-color: rgb(221, 84, 84);
+    border-radius: 10px;
+}
+.follower{
+    display: block;
+    width: 25%;
+    height: 100%;
+    margin: 8%;
+    padding-left: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#copywrite{
+    margin-bottom: 0;
 }
